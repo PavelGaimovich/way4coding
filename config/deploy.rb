@@ -2,7 +2,7 @@
 lock "~> 3.10.1"
 
 set :application, "way4coding"
-# set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "https://github.com/PavelGaimovich/way4coding.git"
 
 set :deploy_to, '/var/www/way4coding'
 
