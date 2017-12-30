@@ -4,4 +4,7 @@ class PagesController < ApplicationController
   def welcome
     @page = Page.find_by_name('welcome')
   end
+
+  def about
+  end
 end

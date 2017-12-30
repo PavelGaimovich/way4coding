@@ -4,7 +4,7 @@ lock "~> 3.10.1"
 set :application, "way4coding"
 set :repo_url, "https://github.com/PavelGaimovich/way4coding.git"
 
-set :deploy_to, '/home/way4coding'
+set :deploy_to, '/var/www/way4coding'
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
